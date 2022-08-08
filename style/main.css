@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+       url('../fonts/roboto-v30-latin-700.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-700italic.woff2') format('woff2'),
+       url('../fonts/roboto-v30-latin-700italic.woff') format('woff'); 
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  width: 1260px;  
+  padding: 0px 30px;
+  margin: 0px auto;
+}
+
+.header{
+  background-color: #020831;
+  padding: 20px 0px;
+}
+
+.intro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo-link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.logo-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.logo-title{
+  text-decoration: none;
+  font-family: 'Roboto';
+  color: #377BBF;
+}
+
+.intro-ctg{
+  display: flex;
+  align-items: center;
+}
+
+.search{
+  padding: 3px;
+  margin-right: 10px;
+  border: 0.5px solid #377BBF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search:hover{
+  background-color: #f0f0f0d5;
+}
+
+.language{
+  padding: 3px;
+  padding-right: 18px;
+  margin-right: 10px;
+  border: 0.5px solid #377BBF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.language:hover{
+  background-color: #f0f0f0d5;
+}
+.lang-img{
+  width: 26px;
+  height: 26px;
+  border: 0.5px solid rgb(78, 75, 75, 0.3);
+  border-radius: 50%;
+}
+
+.sign-in{
+  font-size: 20px;
+  padding: 6px;
+  margin-right: 10px;
+  border: 0.5px solid #377BBF;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(4, 0, 248, 0.651);
+}
+.sign-in:hover{
+  background-color: rgba(4, 0, 248, 0.651);
+  color: #fff;
+}
+
+.sign-up{
+  font-size: 20px;
+  padding: 6px;
+  border: 0.5px solid #377BBF;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(4, 0, 248, 0.651);
+}
+.sign-up:hover{
+  background-color: rgba(4, 0, 248, 0.651);
+  color: #fff;
+}
+
+
+
+
+.bg-box{
+  background-image: url("../img/Sky-plane.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+
+.nav-ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul-li{
+  padding: 15px 0px;
+}
+
+.li-link{
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #fff;
+  font-style: italic;
+}
+
